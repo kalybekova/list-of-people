@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="./admin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <a href="/index.html">
+        <h1>Назад</h1>
+      </a>
+
+      <div class="content">
+        <div class="form">
+          <div class="form-field">
+            <label for="name">ФИО</label>
+            <input type="text" name="name" id="name" class="name" />
+          </div>
+
+          <div class="form-field">
+            <label for="job">Работа</label>
+            <input type="text" name="job" id="job" class="job" />
+          </div>
+
+          <div class="form-field">
+            <label for="growth">рост</label>
+            <input type="text" name="growth" id="growth" class="growth" />
+          </div>
+
+          <div class="form-field">
+            <label for="image">Аватар</label>
+            <input type="text" name="image" id="image" class="avatar" />
+          </div>
+
+          <button class="submit">Добавить</button>
+        </div>
+        <img
+          src="https://static.thenounproject.com/png/363640-200.png"
+          alt=""
+          class="default-image"
+        />
+      </div>
+    </div>
+
+    <script src="./admin.js"></script>
+  </body>
+</html>
